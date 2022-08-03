@@ -1,3 +1,5 @@
+//Show the correct message about the value and types of variables;
+
 let numberOne = 1;
 let stringOne = '1';
 let numberThirty = 30;
@@ -12,7 +14,7 @@ if (numberOne == stringOne) {
 }
 
 if (numberThirty === stringThirty) {
-  console.log('NumberThirty and Thirtystring have the same value and type');
+  console.log('NumberThirty and stringThirty have the same value and type');
 } else {
   console.log('NumberThirty and stringThirty variables do not have the same type');
 }
